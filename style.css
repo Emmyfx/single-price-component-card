@@ -18,8 +18,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 50px;
 }
 
 .one {
@@ -125,39 +124,43 @@ button:hover {
         flex-direction: column;
     }
     .one {
-        height: 24%;
+        height: fit-content;
     }
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
     h2 {
-        font-size: 17px;
+        font-size: 14px;
     }
     .one p {
-        font-size: 15px;
+        font-size: 14px;
         width: 95%;
-        line-height: 27px;
+        line-height: 20px;
     }
     .three {
-        height: 100%;
+        height: fit-content;
         border-radius: 0px 0px 0px 0px;
     }
+    .four {
+        height: fit-content;
+        border-radius: 0px 0px 10px 10px;
+    }
     h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
     span {
         font-size: 16px;
     }
     .text2 {
-        font-size: 17px;
+        font-size: 14px;
     }
     button {
         margin-top: 9px;
         margin-bottom: 20px;
     }
     .four p {
-        width: 70%;
-        line-height: 25px;
-        font-size: 16px;
+        width: 80%;
+        line-height: 20px;
+        font-size: 15px;
     }
 }
